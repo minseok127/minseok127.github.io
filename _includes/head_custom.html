@@ -6,4 +6,33 @@ window.MathJax = {
 };
 </script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-<button id="dark-mode-toggle" class="btn" style="margin-left: 1rem; font-size: 1.2rem; padding: 0.2rem 0.5rem; background: transparent; border: none; cursor: pointer;">🌙</button>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const toggleBtn = document.getElementById("dark-mode-toggle");
+  if (!toggleBtn) return;
+  
+  const currentTheme = localStorage.getItem("theme");
+
+  if (currentTheme === "dark") {
+    document.documentElement.setAttribute("data-theme", "dark");
+    toggleBtn.textContent = "☀️";
+  } else {
+    toggleBtn.textContent = "🌙";
+  }
+
+  toggleBtn.addEventListener("click", function() {
+    let theme = document.documentElement.getAttribute("data-theme");
+
+    if (theme === "dark") {
+      document.documentElement.removeAttribute("data-theme");
+      localStorage.setItem("theme", "light");
+      toggleBtn.textContent = "🌙";
+    } else {
+      document.documentElement.setAttribute("data-theme", "dark");
+      localStorage.setItem("theme", "dark");
+      toggleBtn.textContent = "☀️";
+    }
+  });
+});
+</script>
