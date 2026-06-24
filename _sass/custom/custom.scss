@@ -1,1 +1,11 @@
 // custom SCSS (or CSS) goes here
+[data-theme="dark"] {
+  filter: invert(1) hue-rotate(180deg);
+  background-color: #111 !important;
+}
+
+[data-theme="dark"] img,
+[data-theme="dark"] video,
+[data-theme="dark"] iframe {
+  filter: invert(1) hue-rotate(180deg);
+}
