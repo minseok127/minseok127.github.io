@@ -20,7 +20,7 @@ holder of the bond receives $1,000. If it is less than 169 yen per dollar, the
 amount received by the holder of the bond is 
 
 $$
-1,000 - max[0, 1,000(\frac{169}{S_{T}} - 1)]
+1000 - max[0, 1000(\frac{169}{S_{T}} - 1)]
 $$
 
 When the exchange rate is below 84.5, nothing is received by the holder at
