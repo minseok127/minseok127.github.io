@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 1. CH1의 Practice Questions
+title: 1. Chapter 1의 Practice Questions
 parent: Options, Futures, and Other Derivatives
 nav_order: 1
 ---
@@ -51,4 +51,4 @@ x=169에서 169000엔에 대한 콜옵션을 매도하면 x가 84.5 이상인 �
 
 ---
 
-1.32 On May 21, 2020, an investor owns 100 Apple shares. As indicated in Table 1.3, the share price is about \$316 and a December put option with a strike price of \$290 costs \$21.30. The investor is comparing two alternatives to limit downside risk. The first involves buying one December put option contract with a strike price of \$290. The second involves instructing a broker to sell the 100 shares as soon as Apple's price reaches \$290. Discuss the advantages and disadvantages of the two strategies.
+1.32 On May 21, 2020, an investor owns 100 Apple shares. As indicated in Table 1.3, the share price is about $316 and a December put option with a strike price of $290 costs $21.30. The investor is comparing two alternatives to limit downside risk. The first involves buying one December put option contract with a strike price of $290. The second involves instructing a broker to sell the 100 shares as soon as Apple's price reaches $290. Discuss the advantages and disadvantages of the two strategies.
