@@ -1,6 +1,6 @@
 ---
 title: 선형대수
-nav_order: 3
+nav_order: 4
 ---
 
 # 선형대수

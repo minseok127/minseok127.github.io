@@ -1,6 +1,6 @@
 ---
 title: 미적분
-nav_order: 2
+nav_order: 3
 ---
 
 # 미적분
