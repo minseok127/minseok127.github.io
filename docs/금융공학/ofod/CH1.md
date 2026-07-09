@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 1. Chapter 1의 Practice Questions
+title: Chapter 1 (Introduction)의 Practice Questions
 parent: Options, Futures, and Other Derivatives
 nav_order: 1
 ---
 
-# Chapter 1의 Practice Questions
+# Chapter 1 (Introduction)의 Practice Questions
 
 ---
 

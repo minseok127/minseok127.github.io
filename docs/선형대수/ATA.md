@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 3. A^T A
+title: A^T A
 parent: 선형대수
 nav_order: 3
 ---
