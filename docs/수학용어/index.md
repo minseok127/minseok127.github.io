@@ -1,6 +1,6 @@
 ---
 title: 수학용어
-nav_order: 6
+nav_order: 7
 ---
 
 # 수학 용어들 정리
