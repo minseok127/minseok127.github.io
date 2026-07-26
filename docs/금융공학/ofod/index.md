@@ -8,4 +8,4 @@ nav_order: 1
 
 ---
 
-John C. Hull 저자의 Options, Futures, and Other Derivatives 11th edition 공부한거 정리
+John C. Hull의 Options, Futures, and Other Derivatives 11th edition 공부한거 정리
