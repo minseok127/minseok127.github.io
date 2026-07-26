@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Chapter 2 (Futures markets and central counterparties) 내용 정리
+title: Chapter 2 (Futures Markets and Central Counterparties) 내용 정리
 parent: Options, Futures, and Other Derivatives
 nav_order: 2
 ---
 
-# Chapter 2 (Futures markets and central counterparties) 내용 정리
+# Chapter 2 (Futures Markets and Central Counterparties) 내용 정리
 
 ---
 
