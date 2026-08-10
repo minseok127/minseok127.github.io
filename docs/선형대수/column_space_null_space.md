@@ -31,7 +31,7 @@ $$
 Null Space, $N(A)$는 $A\vec{x} = 0$을 만족하는 $\vec{x}$들의 집합을 의미한다. 이 집합은 입력 벡터들의 집합이므로 $\mathbb{R}^n$에 있다. $\vec{0}$은 $A$의 형태와 상관없이 항상 $N(A)$에 속한다. $\vec{0}$이 아닌 벡터들은 경우에 따라 null space에 속할 수도, 아닐 수도 있다.
 
 $$
-N(A) = \lbrace \vec{x} : A\vec{x} = 0 \rbrace
+N(A) = \lbrace \vec{x} : A\vec{x} = \vec{0} \rbrace
 $$
 
 ---
@@ -47,7 +47,7 @@ A\vec{y} = \sum_i y_{i}\vec{v_{i}}
 \end{aligned}
 $$
 
-만약 이 둘의 덧셈과 스칼라곱 연산 결과가 같은 열벡터들로 표현될 수 있다면 $C(A)$는 덧셈과 스칼라곱에 닫혀있는 것이다. 수식을 전개하면 다음과 같다.
+만약 이 둘의 덧셈과 스칼라곱 연산 결과가 같은 열벡터들의 조합로 표현될 수 있다면 $C(A)$는 덧셈과 스칼라곱에 닫혀있는 것이다. 수식을 전개하면 다음과 같다.
 
 $$
 \alpha \sum_{i} x_{i}\vec{v_{i}} + \beta \sum_{i} y_{i}\vec{v_{i}} = \sum_{i} (\alpha x_{i} + \beta y_{i})\vec{v_i}
