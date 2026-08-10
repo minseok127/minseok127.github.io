@@ -28,7 +28,7 @@ $$
 C(A) = span(\vec{v_1}, \vec{v_2}, ... \vec{v_n}) = \lbrace A\vec{x} : \vec{x} \in \mathbb{R}^n \rbrace
 $$
 
-Null Space, $N(A)$는 $A\vec{x} = 0$을 만족하는 $\vec{x}$들의 집합을 의미한다. 이 집합은 입력 벡터들의 집합이므로 $\mathbb{R}^n$에 있다. $\vec{0}$은 $A$의 형태와 상관없이 항상 $N(A)$에 속한다. $\vec{0}$이 아닌 벡터들은 경우에 따라 null space에 속할 수도, 아닐 수도 있다.
+Null Space, $N(A)$는 $A\vec{x} = \vec{0}$을 만족하는 $\vec{x}$들의 집합을 의미한다. 이 집합은 입력 벡터들의 집합이므로 $\mathbb{R}^n$에 있다. $\vec{0}$은 $A$의 형태와 상관없이 항상 $N(A)$에 속한다. $\vec{0}$이 아닌 벡터들은 경우에 따라 null space에 속할 수도, 아닐 수도 있다.
 
 $$
 N(A) = \lbrace \vec{x} : A\vec{x} = \vec{0} \rbrace
