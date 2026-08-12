@@ -24,6 +24,7 @@ $$
 \begin{aligned}
 A A^T (A^{-1})^T A^{-1} p_2 = \lambda A A^T p_2 \\
 A (A^{-1} A)^T A^{-1} p_2 = \lambda A A^T p_2 \\
+AA^{-1}p_2 = \lambda AA^Tp_2 \\
 \frac{1}{\lambda} p_2 = A A^T p_2
 \end{aligned}
 $$
