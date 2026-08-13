@@ -9,7 +9,7 @@ nav_order: 9
 
 ---
 
-#### 질문
+### 질문
 
 - Column Space와 Null Space가 무슨 의미인가?
 - Column Space와 Null Space는 덧셈과 스칼라곱에 닫혀있나?
