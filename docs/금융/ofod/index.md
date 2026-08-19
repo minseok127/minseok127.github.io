@@ -1,7 +1,7 @@
 ---
 title: Options, Futures, and Other Derivatives
-parent: 금융공학
-nav_order: 1
+parent: 금융
+nav_order: 10
 ---
 
 # Options, Futures, and Other Derivatives
