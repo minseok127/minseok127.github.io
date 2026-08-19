@@ -1,7 +1,7 @@
 ---
 title: How to Prove It
 parent: 수학기초
-nav_order: 1
+nav_order: 10
 ---
 
 # How to Prove It
