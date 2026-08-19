@@ -34,7 +34,7 @@ $$
 반대도 성립할까? 즉 $T$가 부분공간이라면 무조건 basis를 가질까? 이제부터 벡터 집합 $T$가 선형결합에 닫혀있다고 전제하고 생각해보자. $T$는 $\mathbb{R}^n$의 부분공간이다. $T = \lbrace \vec{0} \rbrace$이면 $B = \emptyset$이다. 만약 영벡터가 아니라면 다음과 같이 벡터 $\vec{b_i}$를 뽑는다.
 
 - $span(\vec{b_1}, \vec{b_2}, ..., \vec{b_k}) = T$ 라면 뽑기를 멈춘다.
-- 아니라면 $\vec{b}_{k+1} \in T$ 이면서 $\vec{b}_{k+1} \notin span(\vec{b_1}, \vec{b_2}, ..., \vec{b_k})$인 $\vec{b}_{k+1}$을 뽑는다.
+- 아니라면 $\vec{b_{k+1}} \in T$ 이면서 $\vec{b_{k+1}} \notin span(\vec{b_1}, \vec{b_2}, ..., \vec{b_k})$인 $\vec{b_{k+1}}$을 뽑는다.
 
 먼저 k = 1을 보자. 
 
@@ -48,15 +48,15 @@ $$
 - $c_1\vec{b_1} + c_2\vec{b_2} + ... + c_k\vec{b_k} = \vec{0}$ 을 만족하는 계수는 $c_1 = c_2 = ... = c_k = 0$ 뿐이다.
 - $span(\vec{b_1}, \vec{b_2}, ... , \vec{b_k}) \subset T$ 이고, $span(\vec{b_1}, \vec{b_2}, ... , \vec{b_k}) \neq T$
 
-$\vec{b_i}$들은 전부 $T$의 원소이고, $T$가 선형결합에 닫혀있기 때문에 $span$ 또한 $T$에 포함된다. 따라서 $span \neq T$인 경우, $span$에 속하지 않으면서 $T$에는 속하는 $\vec{b}_{k+1}$을 뽑을 수 있다. 즉 $\vec{b}_{k+1} \in T$이고 $\vec{b}_{k+1} \notin span(\vec{b_1}, \vec{b_2}, ..., \vec{b_k})$인  $\vec{b}_{k+1}$을 뽑을 수 있다. 
+$\vec{b_i}$들은 전부 $T$의 원소이고, $T$가 선형결합에 닫혀있기 때문에 $span$ 또한 $T$에 포함된다. 따라서 $span \neq T$인 경우, $span$에 속하지 않으면서 $T$에는 속하는 $\vec{b_{k+1}}$을 뽑을 수 있다. 즉 $\vec{b_{k+1}} \in T$이고 $\vec{b_{k+1}} \notin span(\vec{b_1}, \vec{b_2}, ..., \vec{b_k})$인  $\vec{b_{k+1}}$을 뽑을 수 있다. 
 
-이렇게 뽑은 $\vec{b}_{k+1}$을 $B$에 추가한 $\lbrace \vec{b_1}, \vec{b_2}, ... ,\vec{b_k}, \vec{b}_{k+1} \rbrace$는 여전히 선형독립일까? 만약 $\vec{b}_{k+1}$를 추가했을 때 선형독립이 아니라면, $c_1\vec{b_1} + c_2\vec{b_2} + ... + c_k\vec{b_k} + c_{k+1}\vec{b}_{k+1}= \vec{0}$ 에서 $c_{k+1} \neq 0$ 이라는 것이다. 그러면 $\vec{b}_{k+1}$은 다음과 같이 정리된다.
+이렇게 뽑은 $\vec{b_{k+1}}$을 $B$에 추가한 $\lbrace \vec{b_1}, \vec{b_2}, ... ,\vec{b_k}, \vec{b_{k+1}} \rbrace$는 여전히 선형독립일까? 만약 $\vec{b_{k+1}}$를 추가했을 때 선형독립이 아니라면, $c_1\vec{b_1} + c_2\vec{b_2} + ... + c_k\vec{b_k} + c_{k+1}\vec{b_{k+1}}= \vec{0}$ 에서 $c_{k+1} \neq 0$ 이라는 것이다. 그러면 $\vec{b_{k+1}}$은 다음과 같이 정리된다.
 
 $$
-\vec{b}_{k+1} = -\frac{1}{c_{k+1}} \sum_i c_i\vec{b_i}
+\vec{b_{k+1}} = -\frac{1}{c_{k+1}} \sum_i c_i\vec{b_i}
 $$
 
-그런데 이것은 $\vec{b}_{k+1} \notin span(\vec{b_1}, \vec{b_2}, ..., \vec{b_k})$ 이라는 가정에 모순이다. 따라서 $c_{k+1} = 0$이다. $c_1\vec{b_1} + c_2\vec{b_2} + ... + c_k\vec{b_k} = \vec{0}$에서 앞의 k개가 선형독립이었기 때문에 k+1번째도 선형독립이다. 
+그런데 이것은 $\vec{b_{k+1}} \notin span(\vec{b_1}, \vec{b_2}, ..., \vec{b_k})$ 이라는 가정에 모순이다. 따라서 $c_{k+1} = 0$이다. $c_1\vec{b_1} + c_2\vec{b_2} + ... + c_k\vec{b_k} = \vec{0}$에서 앞의 k개가 선형독립이었기 때문에 k+1번째도 선형독립이다. 
 
 이 과정을 최대 얼마나 반복해야할까? [span(S)의 basis 크기는 유일한가?]({% link docs/선형대수/span_basis_크기.md %}) 페이지에서의 $span(S)$를 $\mathbb{R}^n$이라고 해보자. 그러면 $S = \lbrace \vec{e_1}, \vec{e_2}, ... ,\vec{e_n} \rbrace$이다. 즉 $S$는 표준기저이다. 그러면 $\mathbb{R}^n$에 속하는 벡터들을 n개보다 많이 모으면 반드시 선형종속이 된다. 이 명제의 대우는 다음과 같다.
 
