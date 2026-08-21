@@ -33,7 +33,7 @@ $\lbrace \vec{u_1}, \vec{b_1}, ... , \vec{b_p} \rbrace$가 선형종속이라고
 
 $span(\lbrace \vec{u_1}, ... , \vec{u_k},  \vec{b_1}, ... , \vec{b_p} \rbrace) \neq Q$ 라고 가정해보자. 그러면 $Q$에 속하는 벡터 중에 $span(\lbrace \vec{u_1}, ... , \vec{u_k},  \vec{b_1}, ... , \vec{b_p} \rbrace)$ 에 속하지 않는 벡터가 있다는 것이다. 이 벡터를 $\vec{x}$라고 하자. 위의 전개 방식을 그대로 따라가면 $\lbrace \vec{x}, \vec{u_1}, ... , \vec{u_k},  \vec{b_1}, ... , \vec{b_p} \rbrace$ 는 선형독립인 것을 알 수 있다. 그런데 [span(S)의 부분집합 크기에 따른 선형독립성]({% link docs/선형대수/span_부분집합_선형독립.md %}) 페이지에 따르면, $\lbrace \vec{x}, \vec{u_1}, ... , \vec{u_k},  \vec{b_1}, ... , \vec{b_p} \rbrace \subset span(B_Q)$ 이고 $\lbrace \vec{x}, \vec{u_1}, ... , \vec{u_k},  \vec{b_1}, ... , \vec{b_p} \rbrace$가 선형독립이기 때문에 $\lbrace \vec{x}, \vec{u_1}, ... , \vec{u_k},  \vec{b_1}, ... , \vec{b_p} \rbrace$의 크기는 $B_Q$의 크기인 $q$ 이하여야 한다. 그런데 $1 + k + p = 1 + q$ 이므로 모순이다. 따라서 $span(\lbrace \vec{u_1}, ... , \vec{u_k},  \vec{b_1}, ... , \vec{b_p} \rbrace) = Q$ 이다. 
 
-정리하면 $\lbrace \vec{u_1}, ... , \vec{u_k},  \vec{b_1}, ... , \vec{b_p} \rbrace$는 선형독립이고 $span$이 $Q$와 같기 때문에 $Q$의 basis이고, 이 basis는 $P$의 basis $B_P$를 포함하기에, $P \subset Q$ 이면 $B_P \subset B_Q$인 경우가 존재한다고 할 수 있다. 또한 이를 기반으로 차원의 대소관계를 다음과 같이 표현할 수 있다.
+정리하면 $\lbrace \vec{u_1}, ... , \vec{u_k},  \vec{b_1}, ... , \vec{b_p} \rbrace$는 선형독립이고 $span$이 $Q$와 같기 때문에 $Q$의 basis이고, 이 basis는 $P$의 basis $B_P$를 포함하기에, $P \subset Q$ 이면 $B_P \subset B_Q$인 경우가 존재한다고 할 수 있다. $P = Q$인 경우는 basis가 같으므로 자명하다. 또한 이를 기반으로 차원의 대소관계를 다음과 같이 표현할 수 있다.
 
 $$
 P \subset Q \implies \dim P \le \dim Q
