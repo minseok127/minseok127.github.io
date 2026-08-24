@@ -15,7 +15,7 @@ nav_order: 17
 
 ---
 
-선형독립인 집합 $P$와 부분집합 $A, B$가 있다. $A$와 $B$는 공집합이 아니고 $P$가 아니다. 이 때 $A \bigcup B = P$ 이면 $span(A) \bigcup span(B) = span(P)$ 일까? $P$를 $\vec{p_i}$라고 표현하고 크기가 $n \ge 2$ 라고 하자. 그러면 다음 수식에서 모든 계수가 0이어야 한다.
+선형독립인 집합 $P$와 부분집합 $A, B$가 있다. $A$와 $B$는 공집합이 아니고 $P$가 아니다. 이 때 $A \bigcup B = P$ 이면 $span(A) \bigcup span(B) = span(P)$ 일까? $P$를 $\vec{p_i}$라고 표현하고 크기가 $n \ge 2$ 라고 하자. 다음 수식에서 모든 계수가 0이어야 한다.
 
 $$
 c_1\vec{p_1} + c_2\vec{p_2} + ... + c_n\vec{p_n} = \vec{0} 
