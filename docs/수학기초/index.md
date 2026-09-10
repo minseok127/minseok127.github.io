@@ -1,6 +1,6 @@
 ---
 title: 수학기초
-nav_order: 7
+nav_order: 3
 ---
 
 # 수학기초 관련 내용들 정리
