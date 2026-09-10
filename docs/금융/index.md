@@ -1,6 +1,6 @@
 ---
 title: 금융
-nav_order: 2
+nav_order: 10
 ---
 
 # 금융
