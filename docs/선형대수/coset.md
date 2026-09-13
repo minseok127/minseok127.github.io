@@ -17,7 +17,7 @@ nav_order: 27
 
 ---
 
-coset은 co + set이다. co는 짝을 이룬다는 의미이고, set과 함께 생각하면 짝을 이루는 집합이라는 뜻이다. coset을 번역하면 잉여류라고 한다. 잉여 + 류이고 해석하면 나머지에 따른 분류이다. 예를 들어 정수를 3으로 나눈 나머지로 분류해보자. $\set{...,0,3,6,...}$, $\set{...,1,4,7,...}$, $\set{...,2,5,8,...}$ 이렇게 겹치지 않는 3개의 집합으로 분류된다. 부분공간에 대해서도 coset을 생각할 수 있다. $W$가 $\mathbb{R}^n$의 부분공간이고 $\vec{x} \in \mathbb{R}^n$일 때, $W$의 coset은 $\lbrace \vec{x} + \vec{w} : \vec{w} \in W \rbrace$이다. 즉 $W$의 모든 벡터들을 $\vec{x}$만큼 평행이동시킨 집합이다.
+coset은 co + set이다. co는 짝을 이룬다는 의미이고, set과 함께 생각하면 짝을 이루는 집합이라는 뜻이다. coset을 번역하면 잉여류라고 한다. 잉여 + 류이고 해석하면 나머지에 따른 분류이다. 예를 들어 정수를 3으로 나눈 나머지로 분류해보자. $\set{\cdots,0,3,6,\cdots}$, $\set{\cdots,1,4,7,\cdots}$, $\set{\cdots,2,5,8,\cdots}$ 이렇게 겹치지 않는 3개의 집합으로 분류된다. 부분공간 $W$에 대한 coset은 $\lbrace \vec{x} + \vec{w} : \vec{w} \in W \rbrace$로 정의된다. $W$의 모든 벡터들을 $\vec{x}$만큼 평행이동시킨 집합이다.
 
 부분공간 $W$의 coset은 부분공간일까? coset에 속하는 어떤 벡터 $\vec{x} + \vec{w_1}$와 이것의 스칼라배인 $2(\vec{x} + \vec{w_1})$를 생각해보자. $2(\vec{x} + \vec{w_1})$이 $\vec{x} + W$에 속한다면 $W$에 속하는 어떤 벡터 $\vec{w}$에 대해 $2(\vec{x} + \vec{w_1}) = \vec{x} + \vec{w}$로 표현될 수 있다. 근데 이걸 정리하면 $\vec{x} = \vec{w} - 2\vec{w_1}$이다. 만약 $\vec{x} \notin W$라면 성립하지 않으므로, coset은 모든 선형결합에 닫혀있다고 할 수 없다. 즉 $\vec{x} \notin W$이면 coset은 부분공간이 아니다.
 
@@ -27,7 +27,7 @@ $$
 \vec{x} + W = \vec{y} + W \implies \vec{x} - \vec{y} \in W
 $$
 
-반대 방향도 성립하는지 보자. $\vec{x} - \vec{y}$가 $W$에 속한 어떤 벡터이다. $\vec{x} + W$는 $\vec{y} + (\vec{x} - \vec{y}) + W$와 같다. 이때 $W$에 속한 모든 벡터들에 $\vec{x} - \vec{y}$를 더한 벡터들을 원소로 는 집합 $W^\prime$을 생각해보자. $W^\prime = (\vec{x} - \vec{y}) + W$이다. 이건 부분공간일까? 이 집합에 속하는 두 벡터 $(\vec{x} - \vec{y}) + \vec{w_1}$과 $(\vec{x} - \vec{y}) + \vec{w_2}$의 선형결합을 다음과 같이 정리해보자.
+반대 방향도 성립하는지 보자. $\vec{x} - \vec{y}$가 $W$에 속한 어떤 벡터이다. $\vec{x} + W$는 $\vec{y} + (\vec{x} - \vec{y}) + W$와 같다. 이때 $W$에 속한 모든 벡터들에 $\vec{x} - \vec{y}$를 더한 벡터들을 원소로 갖는 집합 $W^\prime$을 생각해보자. $W^\prime = (\vec{x} - \vec{y}) + W$이다. 이건 부분공간일까? 이 집합에 속하는 두 벡터 $(\vec{x} - \vec{y}) + \vec{w_1}$과 $(\vec{x} - \vec{y}) + \vec{w_2}$의 선형결합을 다음과 같이 정리해보자.
 
 $$
 \begin{aligned}
