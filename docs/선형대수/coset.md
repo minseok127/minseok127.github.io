@@ -61,4 +61,4 @@ $$
 \end{aligned}
 $$
 
-이건 $\vec{z} - \vec{x} \in W$, $\vec{z} - \vec{y} \in W$라는 것과 동일하다. 그러면 위의 명제에 따라 $\vec{z} + W = \vec{x} + W = \vec{y} + W$인 것인데, $\vec{x} + W \neq \vec{y} + W$라는 조건에 위배된다. 따라서 같은 원소를 포함하는 서로 다른 coset은 존재하지 않는다. 정리하면 모든 벡터는 어떤 coset에 속하고 서로 다른 coset은 같은 벡터를 공유하지 않으므로, $\mathbb{R}^n$에 속하는 모든 벡터들은 겹치지 않는 coset들로 분류되는 것을 알 수 있다.
+이건 $\vec{z} - \vec{x} \in W$, $\vec{z} - \vec{y} \in W$라는 것과 동일하다. 그러면 위의 명제에 따라 $\vec{z} + W = \vec{x} + W = \vec{y} + W$인 것인데, $\vec{x} + W \neq \vec{y} + W$라는 조건에 위배된다. 따라서 같은 원소를 포함하는 서로 다른 coset은 존재하지 않는다. 정리하면 모든 벡터는 어떤 coset에 속하고 서로 다른 coset은 같은 벡터를 공유하지 않으므로, $\mathbb{R}^n$에 속하는 모든 벡터들은 겹치지 않는 coset들로 분류된다.
