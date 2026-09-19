@@ -43,7 +43,7 @@ $$
 - $c_1\vec{b_1} + c_2\vec{b_2} + ... + c_k\vec{b_k} = \vec{0}$ 을 만족하는 계수는 $c_1 = c_2 = ... = c_k = 0$ 뿐이다.
 - $span(\vec{b_1}, \vec{b_2}, ... , \vec{b_k}) \subset T$ 이고, $span(\vec{b_1}, \vec{b_2}, ... , \vec{b_k}) \neq T$
 
-$\vec{b_i}$들은 전부 $T$의 원소이고, $T$가 선형결합에 닫혀있기 때문에 $span$ 또한 $T$에 포함된다. 따라서 $span \neq T$인 경우, $span$에 속하지 않으면서 $T$에는 속하는 $\vec{b_{k+1}}$을 뽑을 수 있다. 즉 $\vec{b_{k+1}} \in T$이고 $\vec{b_{k+1}} \notin span(\vec{b_1}, \vec{b_2}, ..., \vec{b_k})$인  $\vec{b_{k+1}}$을 뽑을 수 있다. 
+$\vec{b_i}$들은 전부 $T$의 원소이고, $T$가 선형결합에 닫혀있기 때문에 $span(\vec{b_1}, \vec{b_2}, ... , \vec{b_k})$ 또한 $T$에 포함된다. 따라서 $span(\vec{b_1}, \vec{b_2}, ... , \vec{b_k}) \neq T$인 경우, $span(\vec{b_1}, \vec{b_2}, ... , \vec{b_k})$에 속하지 않으면서 $T$에는 속하는 $\vec{b_{k+1}}$을 뽑을 수 있다. 즉 $\vec{b_{k+1}} \in T$이고 $\vec{b_{k+1}} \notin span(\vec{b_1}, \vec{b_2}, ..., \vec{b_k})$인  $\vec{b_{k+1}}$을 뽑을 수 있다. 
 
 이렇게 뽑은 $\vec{b_{k+1}}$을 $B$에 추가한 $\lbrace \vec{b_1}, \vec{b_2}, ... ,\vec{b_k}, \vec{b_{k+1}} \rbrace$는 여전히 선형독립일까? 선형종속이라고 가정해보자. 그러면 다음 수식에서 0이 아닌 계수가 존재해야한다.
 
