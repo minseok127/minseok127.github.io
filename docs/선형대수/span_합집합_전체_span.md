@@ -27,13 +27,13 @@ $$
 \sum_a d_a\vec{p_{a}} + \sum_b d_b\vec{p_{b}} + \sum_{j \neq a,b} d_j\vec{p_j}
 $$
 
-이 벡터가 $span(A)$에 속한다고 가정해보자. 그러면 $A$의 basis인 $\vec{p_a}, \vec{p_{j \neq a,b}}$에 대한 수식으로 표현되어야 한다. 즉 다음 수식에서 0이 아닌 계수가 존재해야 한다.
+이 벡터가 $span(A)$에 속한다고 가정해보자. 그러면 $A$의 basis인 $\vec{p_a}, \vec{p_{j \neq a,b}}$에 대한 수식으로 표현되어야 한다. 즉 다음 수식에서 $u_0$가 0이 아니어애 한다.
 
 $$
 u_0(\sum_a d_a\vec{p_{a}} + \sum_b d_b\vec{p_{b}} + \sum_{j \neq a,b} d_j\vec{p_j}) + \sum_a u_a\vec{p_a} + \sum_{j \neq a,b} u_j\vec{p_j} = \vec{0}
 $$
 
-만약 $u_0 = 0$ 이라면 $\sum_a u_a\vec{p_a} + \sum_j u_j\vec{p_j} $의 계수 중에 0이 아닌게 존재해야 한다. 그런데 $P$는 선형독립이고, $A$는 $P$의 부분집합이니 [선형독립 집합의 부분집합은 선형독립인가?]({% link docs/선형대수/선형독립_부분집합.md %}) 페이지에 따르면 $A$도 선형독립이다. 따라서 모순이다. 만약 $u_0 \neq 0$ 이라면 위 수식은 다음과 같이 정리할 수 있다.
+위 수식은 다음과 같이 정리할 수 있다.
 
 $$
 \sum_a (d_a + \frac{u_a}{u_0}) \vec{p_{a}} + \sum_b d_b\vec{p_{b}} + \sum_{j \neq a,b} (d_j + \frac{u_j}{u_0})\vec{p_j} = \vec{0}
