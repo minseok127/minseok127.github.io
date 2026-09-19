@@ -27,7 +27,7 @@ $$
 \sum_a d_a\vec{p_{a}} + \sum_b d_b\vec{p_{b}} + \sum_{j \neq a,b} d_j\vec{p_j}
 $$
 
-이 벡터가 $span(A)$에 속한다고 가정해보자. 그러면 $A$의 basis인 $\vec{p_a}, \vec{p_{j \neq a,b}}$에 대한 수식으로 표현될 수 있어야 한다. 즉 다음 수식에서 $u_0$가 0이 아니어야 한다.
+이 벡터가 $span(A)$에 속한다고 가정해보자. 그러면 $span(A)$의 basis인 $\vec{p_a}, \vec{p_{j \neq a,b}}$에 대한 수식으로 표현될 수 있어야 한다. 즉 다음 수식에서 $u_0$가 0이 아니어야 한다.
 
 $$
 u_0(\sum_a d_a\vec{p_{a}} + \sum_b d_b\vec{p_{b}} + \sum_{j \neq a,b} d_j\vec{p_j}) + \sum_a u_a\vec{p_a} + \sum_{j \neq a,b} u_j\vec{p_j} = \vec{0}
