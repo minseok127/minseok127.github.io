@@ -15,7 +15,7 @@ nav_order: 29
 
 ---
 
-$N(A)$를 기준으로 coset을 정의하자. $\vec{x} + N(A)$로 표현한다. $\vec{x}$를 $N(A)$에 정사영한 벡터 $\vec{x_\Vert}$와 그것에 수직인 벡터 $\vec{x_\perp}$로 분해하자.  $\vec{x} - \vec{x_\perp} = \vec{x_\Vert} \in N(A)$이기 때문에 $\vec{x_\perp}$는 $\vec{x}$와 같은 coset에 속한다. 같은 coset에 속하는 모든 벡터는 해당 coset을 대표할 수 있다. 따라서 $\vec{x} + N(A) = \vec{x_\perp} + N(A)$이다. 즉 같은 coset에 속하는 모든 벡터들은 $\vec{x_\perp} + N(A)$꼴로 표현될 수 있다. 다르게 말하면 모든 벡터들을 $N(A)^\perp \oplus N(A)$ 형태로 분해할 경우, 같은 coset에 속하는 벡터들은 전부 동일한 벡터 $\vec{x_\perp} \in N(A)^\perp$로 분해된다.
+$N(A)$를 기준으로 coset을 정의하자. $\vec{x} + N(A)$로 표현한다. $\vec{x}$를 $N(A)$에 정사영한 벡터 $\vec{x_\Vert}$와 그것에 수직인 벡터 $\vec{x_\perp}$로 분해하자. $\vec{x} - \vec{x_\perp} = \vec{x_\Vert} \in N(A)$이므로 $\vec{x_\perp}$는 $\vec{x}$와 같은 coset에 속한다. 같은 coset에 속하는 모든 벡터는 해당 coset을 대표할 수 있다. 따라서 $\vec{x} + N(A) = \vec{x_\perp} + N(A)$이다. 즉 같은 coset에 속하는 모든 벡터들은 $\vec{x_\perp} + N(A)$꼴로 표현될 수 있다. 다르게 말하면 모든 벡터들을 $N(A)^\perp \oplus N(A)$ 형태로 분해할 경우, 같은 coset에 속하는 벡터들은 전부 동일한 벡터 $\vec{x_\perp} \in N(A)^\perp$로 분해된다.
 
 $\vec{x_\perp} + N(A)$에 속하는 임의의 벡터 길이를 생각해보자. $\vec{n} \in N(A)$일 때, 길이 제곱은 다음과 같다.
 
