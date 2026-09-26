@@ -63,7 +63,7 @@ $$
 \set{\vec{y} \in N(A)^\perp : \lVert \vec{y} \rVert < 1}
 $$
 
-$N(A) \neq \set{\vec{0}}$이라고 치자. 그리고 $N(A)$의 단위벡터를 $\vec{n}$라고 하자. $\lVert \vec{n} \rVert = 1$이다. 그리고  $\vec{y}, \vec{n}$을 사용해서 $\vec{x}$를 다음과 같이 정의해보자.
+$N(A) \neq \set{\vec{0}}$이라고 치자. 그리고 여기에 속한 벡터들 중에 길이가 1인 벡터들을 $\vec{n}$라고 하자. $\vec{y}, \vec{n}$을 사용해서 $\vec{x}$를 다음과 같이 정의해보자.
 
 $$
 \vec{x} = \vec{y} + (\sqrt{1 - \lVert \vec{y} \rVert^2}) \vec{n}
