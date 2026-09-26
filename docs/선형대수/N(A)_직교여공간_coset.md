@@ -57,7 +57,7 @@ $$
 \set{ \vec{x} \in \mathbb{R}^n \setminus N(A)^\perp : \lVert \vec{x} \rVert = 1}
 $$
 
-벡터들은 저마다 어떤 coset에 속한다. 그리고 해당 coset에서 가장 짧은 벡터는 $N(A)^\perp$에 속한 벡터이다. 따라서 이 벡터들을 같은 coset의 $N(A)^\perp$ 벡터로 치환하면 길이가 1보다 작아진다. 이렇게 치환된 벡터들은 $N(A)^\perp$ 단위구 내부를 가득 채울까? $N(A)^\perp$에서 길이가 1보다 작은 벡터들을 생각해보자. 다음과 같이 정의된다.
+벡터들은 저마다 어떤 coset에 속한다. 그리고 해당 coset에서 가장 짧은 벡터는 $N(A)^\perp$에 속한 벡터이다. 따라서 이 벡터들을 같은 coset의 $N(A)^\perp$ 벡터로 치환하면 길이가 1보다 작아진다. 이렇게 치환된 벡터들은 $N(A)^\perp$ 단위구 내부를 가득 채울까? $N(A)^\perp$에서 길이가 1보다 작은 모든 벡터들을 생각해보자. 다음과 같이 정의된다.
 
 $$
 \set{\vec{y} \in N(A)^\perp : \lVert \vec{y} \rVert < 1}
