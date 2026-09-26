@@ -25,7 +25,7 @@ $$
 
 $\vec{x_\perp} \cdot \vec{n} = 0$이므로 $\lVert \vec{x_\perp} + \vec{n} \rVert^2 = \lVert \vec{x_\perp} \rVert^2 + \lVert \vec{n} \rVert^2$이다. 이 값이 가장 작은 경우는 $\vec{n}$가 $\vec{0}$일 때이다. 즉 같은 coset에 속한 벡터들 중 가장 짧은 벡터는 $N(A)^\perp$에 속하는 $\vec{x_\perp}$이다. 즉 $N(A)$에 수직인 벡터이다.
 
-$\mathbb{R}^n$의 단위구를 정의하면 $\set{\vec{x} \in \mathbb{R}^n : \lVert \vec{x} \rVert = 1}$이다. 이걸 [N(A)의 coset과 선형변환]({% link docs/선형대수/N(A)_coset.md %}) 페이지처럼 부분공간 $U$로 치환해서 생각해보자. 그러면 단위구에 대한 선형변환을 부분공간 $U$의 선형변환으로 바꿔 생각할 수 있다. 근데 단위구를 부분공간 $U$로 치환하면 어떤 모습일까? $N(A)^\perp$에 속하는 벡터 중 길이가 1인 것들을 모으면 $N(A)^\perp$의 단위구 벡터이다. 이것들을 $N(A)^\perp$가 아닌 부분공간 $U$로 치환해보자. 밑에 그림에서 초록색이 주황색으로 바뀌는 것이다.
+$\mathbb{R}^n$의 단위구를 정의하면 $\set{\vec{x} \in \mathbb{R}^n : \lVert \vec{x} \rVert = 1}$이다. 이걸 [N(A)의 coset과 선형변환]({% link docs/선형대수/N(A)_coset.md %}) 페이지처럼 부분공간 $U$로 치환해서 생각해보자. 그러면 단위구에 대한 선형변환을 부분공간 $U$의 선형변환으로 바꿔 생각할 수 있다. 근데 단위구를 부분공간 $U$로 치환하면 어떤 모습일까? 이를 부분적으로 파악하기 위해 $N(A)^\perp$의 단위구 벡터를 부분공간 $U$로 치환해보자. 밑에 그림에서 초록색이 주황색으로 바뀌는 것이다.
 
  ![N(A)_직교여공간_coset.png](https://minseok127.github.io/docs/선형대수/N(A)_직교여공간_coset.png)
 
