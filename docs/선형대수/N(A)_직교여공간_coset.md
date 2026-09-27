@@ -25,33 +25,13 @@ $$
 
 $\vec{x_\perp} \cdot \vec{n} = 0$이므로 $\lVert \vec{x_\perp} + \vec{n} \rVert^2 = \lVert \vec{x_\perp} \rVert^2 + \lVert \vec{n} \rVert^2$이다. 이 값이 가장 작은 경우는 $\vec{n}$가 $\vec{0}$일 때이다. 즉 같은 coset에 속한 벡터들 중 가장 짧은 벡터는 $N(A)^\perp$에 속하는 $\vec{x_\perp}$이다.
 
-$\mathbb{R}^n$의 단위구를 정의하면 $\set{\vec{x} \in \mathbb{R}^n : \lVert \vec{x} \rVert = 1}$이다. 이걸 [N(A)의 coset과 선형변환]({% link docs/선형대수/N(A)_coset.md %}) 페이지처럼 부분공간 $U$로 치환해서 생각해보자. 그러면 단위구에 대한 선형변환을 부분공간 $U$의 선형변환으로 바꿔 생각할 수 있다. 근데 단위구를 부분공간 $U$로 치환하면 어떤 모습일까? 이를 부분적으로 파악하기 위해 $N(A)^\perp$의 단위구 벡터를 부분공간 $U$로 치환해보자. 밑에 그림에서 초록색이 주황색으로 바뀌는 것이다.
+$\mathbb{R}^n$의 단위구를 정의하면 $\set{\vec{x} \in \mathbb{R}^n : \lVert \vec{x} \rVert = 1}$이다. 이걸 [N(A)의 coset과 선형변환]({% link docs/선형대수/N(A)_coset.md %}) 페이지처럼 부분공간 $U$로 치환해서 생각해보자. 그러면 단위구에 대한 선형변환을 부분공간 $U$의 선형변환으로 바꿔 생각할 수 있다. 근데 단위구를 부분공간 $U$로 치환하면 어떤 모습일까? 이를 부분적으로 파악하기 위해 $N(A)^\perp$의 단위구 벡터를 부분공간 $U \neq N(A)^\perp$로 치환해보자. 밑에 그림에서 초록색이 주황색으로 바뀌는 것이다.
 
- ![N(A)_직교여공간_coset.png](https://minseok127.github.io/docs/선형대수/N(A)_직교여공간_coset.png)
+![N(A)_직교여공간_coset.png](https://minseok127.github.io/docs/선형대수/N(A)_직교여공간_coset.png)
 
-$U$에는 속하지 않고 $N(A)^\perp$에만 속하는 벡터들은 치환하면 길이가 늘어난다. 왜냐면 같은 coset에 속한 벡터들 중 가장 짧은 것은 $N(A)^\perp$에 속한 벡터이기 때문이다. $N(A)^\perp$와 $U$에 모두 속하는 벡터들은 치환해도 벡터가 바뀌지 않으니 길이 또한 1로 동일하다. 정리하면 $U \neq N(A)^\perp$이면 $N(A)^\perp$의 단위구가 $U$의 단위구에 대응되지 않는다. 그리고 $N(A)^\perp$의 단위구는 $\mathbb{R}^n$의 단위구에 포함된다. 따라서 $\mathbb{R}^n$의 단위구가 $U$의 단위구에 대응되지 않는다.
+$U$에는 속하지 않고 $N(A)^\perp$에만 속하는 벡터들은 치환하면 길이가 늘어난다. 왜냐면 같은 coset에 속한 벡터들 중 가장 짧은 것은 $N(A)^\perp$에 속한 벡터이기 때문이다. $N(A)^\perp$와 $U$에 모두 속하는 벡터들은 치환해도 벡터가 바뀌지 않으니 길이 또한 1로 동일하다. $U \cap N(A)^\perp \neq \set{ \vec{0}}$이면 어떤 벡터는 길어지고 어떤 벡터는 길이가 여전히 1이니 단위구가 아니다. $U \cap N(A)^\perp = \set{ \vec{0}}$이면 모든 벡터가 1보다 길어지니 마찬가지로 단위구가 아니다. $N(A)^\perp$의 단위구가 $U$의 단위구에 대응되지 않고, $N(A)^\perp$의 단위구는 $\mathbb{R}^n$의 단위구에 포함되므로, $\mathbb{R}^n$의 단위구가 $U$의 단위구에 대응되지 않는다.
 
-위에서는 $N(A)^\perp$의 단위구 벡터들을 $U$로 치환하면 어떤 벡터들은 길어지고, 어떤 벡터들은 길이가 1로 동일해서 단위구가 아니게 된 것을 봤다. 근데 $U \cap N(A)^\perp = \set{\vec{0}}$인 경우는 어떨까? 예를 들어 $\mathbb{R}^4$에서 다음과 같이 부분공간들을 정의해보자.
-
-$$
-\begin{aligned}
-N(A) = span(\set{\vec{e_3}, \vec{e_4}}) \\
-N(A)^\perp = span(\set{\vec{e_1}, \vec{e_2}}) \\
-U = span(\set{\vec{e_1} + \vec{e_3}, \vec{e_2} + \vec{e_4}})
-\end{aligned}
-$$
-
-$N(A)^\perp$ 단위구 위의 어떤 벡터 $a\vec{e_1} + b\vec{e_2}$를 생각해보자. 이 벡터가 속한 coset은 $(a\vec{e_1} + b\vec{e_2}) + N(A)$로 표현할 수 있다. $U$에 속한 벡터 $\alpha(\vec{e_1} + \vec{e_3}) + \beta(\vec{e_2} + \vec{e_4})$를 이러한 coset의 형태로 표현해보자.
-
-$$
-\begin{aligned}
-\alpha(\vec{e_1} + \vec{e_3}) + \beta(\vec{e_2} + \vec{e_4}) = (\alpha \vec{e_1} + \beta \vec{e_2}) + (\alpha \vec{e_3} + \beta \vec{e_4})
-\end{aligned}
-$$
-
-$(\alpha \vec{e_1} + \beta \vec{e_2}) + (\alpha \vec{e_3} + \beta \vec{e_4})$라는 벡터가 $(a\vec{e_1} + b\vec{e_2}) + N(A)$ 꼴이 되어야 하므로 $\alpha = a, \beta = b$이다. 즉 $N(A)^\perp$ 단위구 위의 벡터 $a\vec{e_1} + b\vec{e_2}$는 $U$ 위의 벡터 $a(\vec{e_1} + \vec{e_3}) + b(\vec{e_2} + \vec{e_4})$로 치환되고, 이건 $(a\vec{e_1} + b\vec{e_2}) + (a\vec{e_3} + b\vec{e_4})$와 같다. $(a\vec{e_1} + b\vec{e_2})$와 $(a\vec{e_3} + b\vec{e_4})$는 둘다 길이가 1이고, 서로 수직인 벡터들이다. 따라서 합벡터는 길이가 $\sqrt{2}$이다. 정리하면 $N(A)^\perp$ 단위구 위의 모든 벡터들을 $U$로 치환하면, 전부 길이가 1에서 $\sqrt{2}$로 늘어난다. 치환 후에도 모든 벡터들의 길이가 같지만, 1은 아니기에 여전히 단위구가 아니다.
-
-$U = N(A)^\perp$이면 치환 후에도 단위구일까? $N(A)^\perp$의 단위구 벡터들은 치환 후에도 여전히 길이가 1일 것이다. $N(A)^\perp$에 속하지 않는 $\mathbb{R}^n$의 단위구 벡터들은 어떨까? 다음과 같은 벡터들에 대해 생각해보자.
+$U = N(A)^\perp$이면 어떨까? $N(A)^\perp$의 단위구 벡터들은 치환 후에도 여전히 길이가 1일 것이다. $N(A)^\perp$에 속하지 않는 $\mathbb{R}^n$의 단위구 벡터들은 어떨까? 다음과 같은 벡터들에 대해 생각해보자.
 
 $$
 \set{ \vec{x} \in \mathbb{R}^n \setminus N(A)^\perp : \lVert \vec{x} \rVert = 1}
