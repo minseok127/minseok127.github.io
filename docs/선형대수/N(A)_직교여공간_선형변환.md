@@ -27,7 +27,7 @@ $\vec{x_\perp} \cdot \vec{n} = 0$이므로 $\lVert \vec{x_\perp} + \vec{n} \rVer
 
 $\mathbb{R}^n$의 단위구를 정의하면 $\set{\vec{x} \in \mathbb{R}^n : \lVert \vec{x} \rVert = 1}$이다. 이걸 [N(A)의 coset과 선형변환]({% link docs/선형대수/N(A)_coset.md %}) 페이지처럼 부분공간 $U$로 치환해서 생각해보자. 그러면 단위구에 대한 선형변환을 부분공간 $U$의 선형변환으로 바꿔 생각할 수 있다. 근데 단위구를 부분공간 $U$로 치환하면 어떤 모습일까? 이를 부분적으로 파악하기 위해 $N(A)^\perp$의 단위구 벡터를 부분공간 $U \neq N(A)^\perp$로 치환해보자. 밑에 그림에서 초록색이 주황색으로 바뀌는 것이다.
 
-![N(A)_직교여공간_coset.png](https://minseok127.github.io/docs/선형대수/N(A)_직교여공간_선형변환.png)
+![N(A)_직교여공간_선형변환.png](https://minseok127.github.io/docs/선형대수/N(A)_직교여공간_선형변환.png)
 
 $U$에는 속하지 않고 $N(A)^\perp$에만 속하는 벡터들은 치환하면 길이가 늘어난다. 왜냐면 같은 coset에 속한 벡터들 중 가장 짧은 것은 $N(A)^\perp$에 속한 벡터이기 때문이다. $N(A)^\perp$와 $U$에 모두 속하는 벡터들은 치환해도 벡터가 바뀌지 않으니 길이 또한 1로 동일하다. $U \cap N(A)^\perp \neq \set{ \vec{0}}$이면 어떤 벡터는 길어지고 어떤 벡터는 길이가 여전히 1이니 단위구가 아니다. $U \cap N(A)^\perp = \set{ \vec{0}}$이면 모든 벡터가 1보다 길어지니 마찬가지로 단위구가 아니다. $N(A)^\perp$의 단위구가 $U$의 단위구에 대응되지 않고, $N(A)^\perp$의 단위구는 $\mathbb{R}^n$의 단위구에 포함되므로, $\mathbb{R}^n$의 단위구가 $U$의 단위구에 대응되지 않는다.
 
