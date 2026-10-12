@@ -21,7 +21,7 @@ coset은 co + set이다. co는 짝을 이룬다는 의미이고, set과 함께 �
 
 부분공간 $W$의 coset은 부분공간일까? coset에 속하는 어떤 벡터 $\vec{x} + \vec{w_1}$와 이것의 스칼라배인 $2(\vec{x} + \vec{w_1})$를 생각해보자. $2(\vec{x} + \vec{w_1})$이 $\vec{x} + W$에 속한다면 $W$에 속하는 어떤 벡터 $\vec{w}$에 대해 $2(\vec{x} + \vec{w_1}) = \vec{x} + \vec{w}$로 표현될 수 있다. 근데 이걸 정리하면 $\vec{x} = \vec{w} - 2\vec{w_1}$이다. 만약 $\vec{x} \notin W$라면 성립하지 않으므로, coset은 모든 선형결합에 닫혀있다고 할 수 없다. 즉 $\vec{x} \notin W$이면 coset은 부분공간이 아니다.
 
-서로 다른 두 벡터 $\vec{x}, \vec{y}$가 있다. 이 벡터들로 만들어지는 부분공간 $W$의 coset을 생각해보자. $\vec{x} + W$와 $\vec{y} + W$로 표현한다. 만약 두 집합이 같다면, $W$에 속하는 임의의 벡터 $\vec{w_x}$에 대해서 $\vec{x} + \vec{w_x} \in \vec{y} + W$이다. 즉 $\vec{x} + \vec{w_x}$를 $\vec{y}$와 $W$에 속한 어떤 벡터 $\vec{w_y}$의 합, $\vec{x} + \vec{w_x} = \vec{y} + \vec{w_y}$으로 적을 수 있다. 식을  $\vec{x} - \vec{y} = \vec{w_y} - \vec{w_x}$로 바꿔서 보면 $\vec{w_y} - \vec{w_x} \in W$이므로  $\vec{x} - \vec{y} \in W$이다. 다음 명제가 성립한다.
+서로 다른 두 벡터 $\vec{x}, \vec{y}$가 있다. 부분공간 $W$에 대해서 이 벡터들로 만들어지는 coset을 생각해보자. $\vec{x} + W$와 $\vec{y} + W$로 표현한다. 만약 두 집합이 같다면, $W$에 속하는 임의의 벡터 $\vec{w_x}$에 대해서 $\vec{x} + \vec{w_x} \in \vec{y} + W$이다. 즉 $\vec{x} + \vec{w_x}$를 $\vec{y}$와 $W$에 속한 어떤 벡터 $\vec{w_y}$의 합, $\vec{x} + \vec{w_x} = \vec{y} + \vec{w_y}$으로 적을 수 있다. 식을  $\vec{x} - \vec{y} = \vec{w_y} - \vec{w_x}$로 바꿔서 보면 $\vec{w_y} - \vec{w_x} \in W$이므로  $\vec{x} - \vec{y} \in W$이다. 다음 명제가 성립한다.
 
 $$
 \vec{x} + W = \vec{y} + W \implies \vec{x} - \vec{y} \in W
