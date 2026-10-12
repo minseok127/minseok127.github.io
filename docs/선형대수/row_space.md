@@ -59,4 +59,4 @@ $C(A) \subset \mathbb{R}^m$, $C(A^T) \subset \mathbb{R}^n$이다. 근데 둘의 
 
 ![row_space_2.png](https://minseok127.github.io/docs/선형대수/row_space_2.png)
 
-두 번째로 $\mathbb{R}^m$에 속하는 임의의 벡터 $\vec{y}$를 $A^T$로 선형변환 해보자. 이건 $\vec{y}$를 $N(A^T)^\perp$에 정사영한 벡터 $\vec{y_c}$를 변환한 것과 같다. 변환된 벡터는 $C(A^T) = N(A)^\perp$에 있다. 변환된 벡터를 $A$로 다시 변환하면 $C(A) = N(A^T)^\perp$로 간다. 마찬가지로 역행렬이 아니기에, $\vec{y_c}$로 돌아간다는 보장은 없다.
+두 번째로 $\mathbb{R}^m$에 속하는 임의의 벡터 $\vec{y}$를 $A^T$로 선형변환 해보자. 이건 $\vec{y}$를 $N(A^T)^\perp$에 정사영한 벡터 $\vec{y_c}$를 변환한 것과 같다. 변환된 벡터는 $C(A^T) = N(A)^\perp$에 있다. 변환된 벡터를 $A$로 다시 변환하면 $C(A) = N(A^T)^\perp$로 간다. 마찬가지로 역행렬이 아니기에 $\vec{y_c}$로 돌아간다는 보장은 없다.
