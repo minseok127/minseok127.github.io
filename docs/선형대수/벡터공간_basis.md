@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 유한차원 벡터공간과 basis
+title: 유한차원 벡터공간의 basis
 parent: 선형대수
 nav_order: 33
 ---
 
-# 유한차원 벡터공간과 basis
+# 유한차원 벡터공간의 basis
 
 ---
 
