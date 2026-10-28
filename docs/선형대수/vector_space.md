@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Vector Space
+title: 벡터공간 (vector space)
 parent: 선형대수
 nav_order: 31
 ---
 
-# Vector Space
+# 벡터공간 (vector space)
 
 ---
 
