@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Row Space
+title: 행공간 (Row Space)
 parent: 선형대수
 nav_order: 30
 ---
 
-# Row Space
+# 행공간 (Row Space)
 
 ---
 
