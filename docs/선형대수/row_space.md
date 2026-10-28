@@ -15,7 +15,7 @@ nav_order: 30
 
 ---
 
-행공간(row space)은 행벡터들로 만들어지는 부분공간이다. $m \times n$ 행렬 $A$에 대해서, $A^T$의 열벡터들이 $A$의 행벡터들이 되기 때문에 $C(A^T)$가 Row space이다. $A^T$는 $n \times m$이니까 $C(A^T) \subset \mathbb{R}^n$이다. 정리해보면 $N(A)$와 $C(A^T)$는 선형변환 $A$의 입력 공간인 $\mathbb{R}^n$에 포함되고, $N(A^T)$와 $C(A)$는 선형변환 $A$의 출력 공간인 $\mathbb{R}^m$에 포함된다.
+행공간(row space)은 행벡터들로 만들어지는 부분공간이다. $m \times n$ 행렬 $A$에 대해서, $A^T$의 열벡터들이 $A$의 행벡터들이 되기 때문에 $C(A^T)$가 row space이다. $A^T$는 $n \times m$이니까 $C(A^T) \subset \mathbb{R}^n$이다. 정리해보면 $N(A)$와 $C(A^T)$는 선형변환 $A$의 입력 공간인 $\mathbb{R}^n$에 포함되고, $N(A^T)$와 $C(A)$는 선형변환 $A$의 출력 공간인 $\mathbb{R}^m$에 포함된다.
 
 행렬 $A$를 다음과 같이 $m$개의 행벡터들로 표현해보자. 각각의 벡터들은 $A^T$의 열벡터들이다.
 
