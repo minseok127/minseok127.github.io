@@ -27,7 +27,7 @@ $$
 
 $Im(T) = \set{T(\vec{v}) : \vec{v} \in V}$이므로 $V$의 임의의 벡터를 선형결합 $c_1\vec{v_1} + ... + c_n\vec{v_n}$으로 표현할 때, $Im(T)$의 모든 벡터는 $T(c_1\vec{v_1} + ... + c_n\vec{v_n})$ 형태로 표현할 수 있다. 선형변환 성질에 따라 이건 $c_1T(\vec{v_1}) + ... + c_nT(\vec{v_n})$과 같다. 즉 $Im(T)$의 모든 벡터가 $span(T(\vec{v_1}), ... , T(\vec{v_n}))$에 속하므로 $Im(T) \subset span(T(\vec{v_1}), ... , T(\vec{v_n}))$이다. 반대로 $span(T(\vec{v_1}), ... , T(\vec{v_n}))$의 모든 벡터는 $c_1T(\vec{v_1}) + ... + c_nT(\vec{v_n})$ 형태로 표현할 수 있다. 선형변환 성질에 따라 이건 $T(c_1\vec{v_1} + ... + c_n\vec{v_n})$과 같고, $c_1\vec{v_1} + ... + c_n\vec{v_n}$은 $V$의 원소이기 때문에, 이 벡터는 $Im(T)$의 정의를 만족한다. 즉  $span(T(\vec{v_1}), ... , T(\vec{v_n})) \subset Im(T)$이다. 포함관계가 양쪽으로 성립하기에 $Im(T) = span(T(\vec{v_1}), ... , T(\vec{v_n}))$이다.
 
-이걸 $V$의 basis $B = \set{\vec{b_1}, ... , \vec{b_n}}$에 대해 생각해보자. 위 정리에 따라 $Im(T) = span(T(\vec{b_1}), ... , T(\vec{b_n}))$이다. 따라서 $T(\vec{b_1}), ... , T(\vec{b_n})$이 선형독립이면 $T(\vec{b_1}), ... , T(\vec{b_n})$은 $Im(T)$의 basis이다. 그런데 [선형변환의 단사]({% link docs/선형대수/선형변환_단사.md %}) 페이지에서는 다음 명제가 참임을 증명했다.
+이걸 $V$의 basis $B = \set{\vec{b_1}, ... , \vec{b_n}}$에 대해 생각해보자. 위 정리에 따라 $Im(T) = span(T(\vec{b_1}), ... , T(\vec{b_n}))$이다. 따라서 $T(\vec{b_1}), ... , T(\vec{b_n})$이 선형독립이면 $Im(T)$의 basis이다. 그런데 [선형변환의 단사]({% link docs/선형대수/선형변환_단사.md %}) 페이지에서는 다음 명제가 참임을 증명했다.
 
 $$
 \text{T가 단사} \implies \text{선형독립인 벡터들을 선형변환해도 선형독립}
