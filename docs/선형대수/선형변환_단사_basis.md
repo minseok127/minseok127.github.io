@@ -61,7 +61,7 @@ $$
 
 만약에 어떤 벡터집합 $\vec{v_1}, ... , \vec{v_k}$가 $V$의 basis가 아니면서 선형독립이었다면? 그러면 $span(\vec{v_1}, ... , \vec{v_k})$는 $V$의 부분공간이지만 $V$와 같지는 않다. 따라서 $span(\vec{v_1}, ... , \vec{v_k}) \cap N(T) = \set{\vec{0}}$가 참이라도 $N(T) \neq \set{\vec{0}}$일 수 있다. 다르게 말하면 $span(\vec{v_1}, ... , \vec{v_k}) \cap N(T) = \set{\vec{0}}$가 참이니 $T(\vec{v_1}), ... , T(\vec{v_k})$는 선형독립이지만 $T$가 단사인지 아닌지는 모르는 것이다. 이게 [선형변환의 단사]({% link docs/선형대수/선형변환_단사.md %}) 페이지 마지막에 나온 반례의 상황이다.
 
-이걸 위에서 했던 질문의 관점에서 생각해보자. $T$가 단사이면 $N(T) = \set{\vec{0}}$이다. 그리고 $\set{\vec{0}}$의 basis는 $\emptyset$이다. 따라서 $T$가 단사일 경우, $V$의 basis에서 $N(T)$의 basis를 제외한 나머지 벡터들은 $V$의 basis 자체이다. $T$는 단사니까 이 벡터들은 $T$로 변환된 후 $Im(T)$의 basis가 된다.
+이걸 위에서 했던 질문의 관점에서 생각해보자. $T$가 단사이면 $N(T) = \set{\vec{0}}$이다. 그리고 $\set{\vec{0}}$의 basis는 $\emptyset$이다. 따라서 $V$의 basis에서 $N(T)$의 basis를 제외한 나머지 벡터들은 $V$의 basis 자체이다. 그리고 위에서 본 필요충분조건에 의해 이 벡터들은 $T$로 변환된 후 $Im(T)$의 basis가 된다.
 
 $T$가 단사가 아니라면? 그러면 $V$의 basis에서 $N(T)$의 basis를 제외한 나머지 벡터들이 $span$하는 벡터공간 $V^\prime$에 대해, 새로운 선형변환 $T^\prime : V^\prime \rightarrow W$을 생각하면 된다. 대응 관계는 유지시켜서 $T(\vec{v}) = T^\prime(\vec{v})$이다. 이때 $T^\prime$은 단사일까? 만약 $V^\prime \cap N(T) \neq \set{\vec{0}}$라고 가정한다면, 다음 수식을 만족하는 $\vec{0}$가 아닌 벡터가 존재한다. $\vec{v}^\prime$은 $V^\prime$의 basis이고 $\vec{n}$은 $N(T)$의 basis이다.
 
