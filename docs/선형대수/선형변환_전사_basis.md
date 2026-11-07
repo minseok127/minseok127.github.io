@@ -45,7 +45,7 @@ $$
 \text{T가 단사이면서 전사} \implies T(\vec{b_1}), ... , T(\vec{b_n}) \text{이 W의 basis}
 $$
 
-반대로 $T(\vec{b_1}), ... , T(\vec{b_n})$이 $W$의 basis라고 가정했을 때, $T$가 단사이면서 전사인지 증명해보자. Basis의 정의에 따라 $W = span(T(\vec{b_1}), ... , T(\vec{b_n}))$이고 $T(\vec{b_1}), ... , T(\vec{b_n})$은 선형독립이다. 그런데 [선형변환의 단사와 basis]({% link docs/선형대수/선형변환_단사_basis.md %}) 페이지에 따르면 $Im(T) = span(T(\vec{b_1}), ... , T(\vec{b_n}))$이므로, $Im(T) = span(T(\vec{b_1}), ... , T(\vec{b_n})) = W$이다. 이건 $T$가 전사인 것과 필요충분조건이다. 따라서 다음 조건문이 성립한다.
+반대로 $T(\vec{b_1}), ... , T(\vec{b_n})$이 $W$의 basis라고 가정했을 때, $T$가 단사이면서 전사인지 증명해보자. Basis의 정의에 따라 $W = span(T(\vec{b_1}), ... , T(\vec{b_n}))$이고 $T(\vec{b_1}), ... , T(\vec{b_n})$은 선형독립이다. 그런데 [선형변환의 단사와 basis]({% link docs/선형대수/선형변환_단사_basis.md %}) 페이지에 따르면 $Im(T) = span(T(\vec{b_1}), ... , T(\vec{b_n}))$이므로, $Im(T) = W$이다. 이건 $T$가 전사인 것과 필요충분조건이다. 따라서 다음 조건문이 성립한다.
 
 $$
 T(\vec{b_1}), ... , T(\vec{b_n}) \text{이 W의 basis} \implies \text{T가 전사}
