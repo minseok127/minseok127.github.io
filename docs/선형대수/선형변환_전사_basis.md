@@ -30,7 +30,7 @@ $$
 \text{T가 단사} \iff T(\vec{b_1}), ... , T(\vec{b_n}) \text{이 Im(T)의 basis}
 $$
 
-이건 다음과 같이 두 조건문이 참이라는 것이다.
+이건 다음 두 조건문이 참이라는 것이다.
 
 $$
 \begin{aligned}
