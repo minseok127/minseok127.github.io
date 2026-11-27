@@ -38,7 +38,7 @@ $$
 
 $(\vec{x} - \vec{y}), \vec{w_1}, \vec{w_2} \in W$이므로 이들의 선형결합인 $(\alpha + \beta - 1)(\vec{x} - \vec{y}) + \alpha \vec{w_1} + \beta \vec{w_2}$는 $W$에 속한다. 정리하면 $(\vec{x} - \vec{y}) + \vec{w_1}$과 $(\vec{x} - \vec{y}) + \vec{w_2}$의 선형결합은 $(\vec{x} - \vec{y})$와 $W$에 속한 벡터를 더한 것과 같으므로 $W^\prime$에 속한다. $W^\prime$은 선형결합에 닫혀있기 때문에 부분공간이다. $W^\prime$이 부분공간이므로 $\vec{y} + W^\prime$는 부분공간에 대한 coset이다.
 
-$\vec{x} - \vec{y} \in W$이기 때문에 $W^\prime$의 모든 원소들은 $W$에 속한다. 즉 $W^\prime \subset W$이다. 따라서 $\vec{y} + W^\prime \subset \vec{y} + W$이고, $\vec{x} + W = \vec{y} + W^\prime$이므로 $\vec{x} + W \subset \vec{y} + W$이다. $\vec{x} - \vec{y} \in W$이면 $\vec{y} - \vec{x}$도 $W$에 속한다. $\vec{y} + W = \vec{x} + (\vec{y} - \vec{x}) + W$이다. 위와 동일한 논리를 거치면 $\vec{y} +W \subset \vec{x} + W$라고 할 수 있다. 서로가 서로에게 포함되기 때문에 $\vec{x} + W = \vec{y} + W$이다. 따라서 다음 명제가 성립한다.
+$\vec{x} - \vec{y} \in W$이기 때문에 $W^\prime$의 모든 원소들은 $W$에 속한다. 즉 $W^\prime \subset W$이다. 따라서 $\vec{y} + W^\prime \subset \vec{y} + W$이고, $\vec{x} + W = \vec{y} + W^\prime$이므로 $\vec{x} + W \subset \vec{y} + W$이다. $\vec{x} - \vec{y} \in W$이면 $\vec{y} - \vec{x}$도 $W$에 속한다. 그리고 $\vec{y} + W = \vec{x} + (\vec{y} - \vec{x}) + W$이다. 이번엔 $W^\prime = (\vec{y} - \vec{x}) + W$이라고 정의하고 위와 동일한 논리를 거치면 $\vec{y} +W \subset \vec{x} + W$라고 할 수 있다. 서로가 서로에게 포함되기 때문에 $\vec{x} + W = \vec{y} + W$이다. 따라서 다음 명제가 성립한다.
 
 $$
 \vec{x} - \vec{y} \in W \implies \vec{x} + W = \vec{y} + W
