@@ -27,7 +27,7 @@ $$
 \vec{x} + W = \vec{y} + W \implies \vec{x} - \vec{y} \in W
 $$
 
-반대 방향도 성립하는지 보자. $\vec{x} - \vec{y}$가 $W$에 속한 어떤 벡터이다. $\vec{x} + W$는 $\vec{y} + (\vec{x} - \vec{y}) + W$와 같다. 이때 $W$에 속한 모든 벡터들에 $\vec{x} - \vec{y}$를 더한 벡터들을 원소로 갖는 집합 $W^\prime$을 생각해보자. $W^\prime = (\vec{x} - \vec{y}) + W$이다. 이건 부분공간일까? 이 집합에 속하는 두 벡터 $(\vec{x} - \vec{y}) + \vec{w_1}$과 $(\vec{x} - \vec{y}) + \vec{w_2}$의 선형결합을 다음과 같이 정리해보자.
+반대 방향도 성립하는지 보자. $\vec{x} - \vec{y} \in W$가 참이라고 하자. $\vec{x} + W = \vec{y} + (\vec{x} - \vec{y}) + W$이다. 이때 $W^\prime = (\vec{x} - \vec{y}) + W$라고 정의하자. $\vec{x} + W = \vec{y} + (\vec{x} - \vec{y}) + W = \vec{y} + W^\prime$이다. 그런데 $W^\prime$은 부분공간일까? $W^\prime$에 속하는 두 벡터 $(\vec{x} - \vec{y}) + \vec{w_1}$과 $(\vec{x} - \vec{y}) + \vec{w_2}$의 선형결합이 $W^\prime$에 속하는지 보자.
 
 $$
 \begin{aligned}
@@ -36,9 +36,9 @@ $$
 \end{aligned}
 $$
 
-$(\alpha + \beta - 1)(\vec{x} - \vec{y}) + \alpha \vec{w_1} + \beta \vec{w_2}$은 $W$에 속하는 벡터들의 선형결합이기 때문에, 결국 $(\vec{x} - \vec{y}) + W$꼴이 된다. 즉 $W^\prime$은 선형결합에 닫혀있다. 따라서 $W^\prime$은 부분공간이고 coset인 $\vec{y} + W^\prime$를 생각할 수 있다. 그리고 $\vec{x} - \vec{y}$도 $W$에 속하기 때문에 $W^\prime$의 모든 원소들은 $W$에 속한다. 즉 $W^\prime \subset W$이다. 따라서 $\vec{y} + W^\prime \subset \vec{y} + W$이다. $\vec{x} + W = \vec{y} + W^\prime$이었으니 $\vec{x} + W \subset \vec{y} + W$이다.
+$(\vec{x} - \vec{y}), \vec{w_1}, \vec{w_2} \in W$이므로 이들의 선형결합인 $(\alpha + \beta - 1)(\vec{x} - \vec{y}) + \alpha \vec{w_1} + \beta \vec{w_2}$는 $W$에 속한다. 정리하면 $(\vec{x} - \vec{y}) + \vec{w_1}$과 $(\vec{x} - \vec{y}) + \vec{w_2}$의 선형결합은 $(\vec{x} - \vec{y})$와 $W$에 속한 벡터를 더한 것과 같으므로 $W^\prime$에 속한다. $W^\prime$은 선형결합에 닫혀있기 때문에 부분공간이다. $W^\prime$이 부분공간이므로 $\vec{y} + W^\prime$는 부분공간에 대한 coset이다.
 
-$\vec{x} - \vec{y} \in W$이면 $\vec{y} - \vec{x}$도 $W$에 속한다. $\vec{y} + W$는 $\vec{x} + (\vec{y} - \vec{x}) + W$와 같다. 위와 동일한 논리를 거치면 $\vec{y} +W \subset \vec{x} + W$라고 할 수 있다. 서로가 서로에게 포함되기 때문에 $\vec{x} + W = \vec{y} + W$이다. 따라서 다음 명제가 성립한다.
+$\vec{x} - \vec{y} \in W$이기 때문에 $W^\prime$의 모든 원소들은 $W$에 속한다. 즉 $W^\prime \subset W$이다. 따라서 $\vec{y} + W^\prime \subset \vec{y} + W$이고, $\vec{x} + W = \vec{y} + W^\prime$이므로 $\vec{x} + W \subset \vec{y} + W$이다. $\vec{x} - \vec{y} \in W$이면 $\vec{y} - \vec{x}$도 $W$에 속한다. $\vec{y} + W = \vec{x} + (\vec{y} - \vec{x}) + W$이다. 위와 동일한 논리를 거치면 $\vec{y} +W \subset \vec{x} + W$라고 할 수 있다. 서로가 서로에게 포함되기 때문에 $\vec{x} + W = \vec{y} + W$이다. 따라서 다음 명제가 성립한다.
 
 $$
 \vec{x} - \vec{y} \in W \implies \vec{x} + W = \vec{y} + W
